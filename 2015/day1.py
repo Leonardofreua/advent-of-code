@@ -2,12 +2,10 @@
 
 # Source: https://adventofcode.com/2015/day/1
 
-import os
-
 DIRECTIONS = {")": -1, "(": 1}
 
 
-with open(f"{os.getcwd()}/2015/inputs/day1_input.txt") as file:
+with open("./2015/inputs/day1_input.txt") as file:
     floor = 0
     position = 0
     for index, value in enumerate(file.read(), start=1):
@@ -17,5 +15,5 @@ with open(f"{os.getcwd()}/2015/inputs/day1_input.txt") as file:
         if floor == -1 and position == 0:
             position = index
 
-    print(floor)
-    print(position)
+print(floor)
+print(position)
