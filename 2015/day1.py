@@ -15,5 +15,5 @@ with open("./inputs/day1_input.txt") as file:
         if floor == -1 and position == 0:
             position = index
 
-print(floor)
-print(position)
+print(f"Floor: {floor}")
+print(f"Position of the first entry in the basement: {position}")
