@@ -15,7 +15,7 @@ x_santa = y_santa = x_robo = y_robo = 500
 matrix = [[0 for _ in range(WIDTH)] for _ in range(HEIGHT)]
 matrix[x_santa][y_santa] = 2
 
-with open("./2015/inputs/day3_input.txt") as file:
+with open("./inputs/day3_input.txt") as file:
     for index, direction in enumerate(file.read()):
         x_coord, y_coord = COORDINATES[direction]
 

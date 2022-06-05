@@ -10,7 +10,7 @@ def get_smallest_perimeter(length, width, height):
     return min(p1, p2, p3)
 
 
-with open("./2015/inputs/day2_input.txt") as file:
+with open("./inputs/day2_input.txt") as file:
     total_paper = 0
     total_ribbon = 0
     for dimensions in file:

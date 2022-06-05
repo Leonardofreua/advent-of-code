@@ -15,7 +15,7 @@ x = y = 500
 matrix = [[0 for _ in range(WIDTH)] for _ in range(HEIGHT)]
 matrix[x][y] = 1
 
-with open("./2015/inputs/day3_input.txt") as file:
+with open("./inputs/day3_input.txt") as file:
     for direction in file.read():
         x_coord, y_coord = COORDINATES[direction]
 

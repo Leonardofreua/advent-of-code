@@ -5,7 +5,7 @@
 DIRECTIONS = {")": -1, "(": 1}
 
 
-with open("./2015/inputs/day1_input.txt") as file:
+with open("./inputs/day1_input.txt") as file:
     floor = 0
     position = 0
     for index, value in enumerate(file.read(), start=1):
